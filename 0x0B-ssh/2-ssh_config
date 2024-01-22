@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Script with a configuration to connect to a server without typing a password
+
+# Config file
+Host *
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
