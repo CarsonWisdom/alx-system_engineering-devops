@@ -47,5 +47,5 @@ frontend carsonwisdom-frontend-https
 
 backend carsonwisdom-backend
         balance roundrobin
-        server 464349-web-01 35.175.130.67:80 check
-        server 464349-web-02 34.229.186.92:80 check
+        server 464349-web-01 100.26.254.80:80 check
+        server 464349-web-02 100.26.178.133:80 check
